@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import {Typography} from '@material-ui/core';
 import ButtonBase from '@material-ui/core/ButtonBase';
-import Barra_RV from 'C:/PROYECTO-1/reactpixabay/FrontEnd/src/img/Barra_RV.png';
+import Barra_RV from '../../..//img/Barra_RV.png';
 
 
 const useStyles = makeStyles((theme) => ({

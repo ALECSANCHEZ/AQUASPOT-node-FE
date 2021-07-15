@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import {Typography, colors} from '@material-ui/core';
 import ButtonBase from '@material-ui/core/ButtonBase';
-import Barra_AN from 'C:/PROYECTO-1/reactpixabay/FrontEnd/src/img/Barra_AN.png';
+import Barra_AN from '../../../img/Barra_AN.png'; //Barra_AN.png
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward'; 
 
 

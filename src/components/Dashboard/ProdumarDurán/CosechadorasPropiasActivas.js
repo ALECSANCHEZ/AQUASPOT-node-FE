@@ -1,3 +1,4 @@
+import { v4 as uuid } from 'uuid';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import {
   Button,
@@ -19,7 +20,6 @@ import Grid from '@material-ui/core/Grid';
 //import CargarDatos from 'C:/PROYECTO-1/reactpixabay/FrontEnd/src/cargarDatos/queries.js'; //IMPORTA LOS DATOS DEL BACK-END
 //import { v4 as uuid } from 'uuid';
 
-
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -32,57 +32,57 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-// const orders = [
-//   {
-//     id: uuid(),
-//     Cosechadora: 'Cosechadora 1',
-//     Ubicación: {
-//       Piscina: 'Piscina 3'
-//     },
-//   },
-//   {
-//     id: uuid(),
-//     Cosechadora: 'Cosechadora 2',
-//     Ubicación: {
-//       Piscina: 'Piscina 10'
-//     },
-//   },
-//   {
-//     id: uuid(),
-//     Cosechadora: 'Cosechadora 3',
-//     Ubicación: {
-//       Piscina: 'Piscina 7'
-//     },
-//   },
-//   {
-//     id: uuid(),
-//     Cosechadora: 'Cosechadora 4',
-//     Ubicación: {
-//       Piscina: 'Piscina 1'
-//     },
-//   },
-//   {
-//     id: uuid(),
-//     Cosechadora: 'Cosechadora 5',
-//     Ubicación: {
-//       Piscina: 'Piscina 2'
-//     },
-//   },
-//   {
-//     id: uuid(),
-//     Cosechadora: 'Cosechadora 6',
-//     Ubicación: {
-//       Piscina: 'Piscina 6'
-//     },
-//   }
-// ];
+ const orders = [
+   {
+     id: uuid(),
+     Cosechadora: 'Cosechadora 1',
+     Ubicación: {
+       Piscina: 'Piscina 3'
+     },
+   },
+   {
+     id: uuid(),
+     Cosechadora: 'Cosechadora 2',
+     Ubicación: {
+       Piscina: 'Piscina 10'
+     },
+   },
+   {
+     id: uuid(),
+     Cosechadora: 'Cosechadora 3',
+     Ubicación: {
+       Piscina: 'Piscina 7'
+     },
+   },
+   {
+     id: uuid(),
+     Cosechadora: 'Cosechadora 4',
+     Ubicación: {
+       Piscina: 'Piscina 1'
+     },
+   },
+   {
+     id: uuid(),
+     Cosechadora: 'Cosechadora 5',
+     Ubicación: {
+       Piscina: 'Piscina 2'
+     },
+   },
+   {
+     id: uuid(),
+     Cosechadora: 'Cosechadora 6',
+     Ubicación: {
+       Piscina: 'Piscina 6'
+     },
+   }
+ ];
 
 export default function CosechadorasPropiasActivas(){
   const classes = useStyles();
 
-  let datos = CargarDatos("http://localhost:4000/CosechadorasPropiasActivas");// SE USA ESTA RUTA PARA GUARDAR LOS DATOS EN UNA VARIBALE
+  //let datos = CargarDatos("http://localhost:4000/CosechadorasPropiasActivas");// SE USA ESTA RUTA PARA GUARDAR LOS DATOS EN UNA VARIBALE
 
-  console.log(datos)
+  //console.log(datos)
   return(
   <div className={classes.root}>
   <Paper className={classes.paper} square>
@@ -102,7 +102,7 @@ export default function CosechadorasPropiasActivas(){
             </TableRow>
           </TableHead>
           <TableBody>
-             {datos.map((order) => (
+             {orders.map((order) => (   //daros.map((order) => ())
                <TableRow
                  hover
                  key={order.employeeNumber}

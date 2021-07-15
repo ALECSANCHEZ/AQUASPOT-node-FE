@@ -7,13 +7,13 @@ import IconButton from '@material-ui/core/IconButton';
 import StarBorderIcon from '@material-ui/icons/StarBorder';
 
 import Coupling from '../../img/PUBLICIDAD/Coupling.png';
-import Juego_Mangueras_Hidraulicas from 'C:/PROYECTO-1/reactpixabay/FrontEnd/src/img/PUBLICIDAD/Juego_Mangueras_Hidraulicas.png';
-import Mando_Seinmex from 'C:/PROYECTO-1/reactpixabay/FrontEnd/src/img/PUBLICIDAD/Mando_Seinmex.png';
-import Motor_Charlyn from 'C:/PROYECTO-1/reactpixabay/FrontEnd/src/img/PUBLICIDAD/Motor_Charlyn.png';
-import Motor_Parker from 'C:/PROYECTO-1/reactpixabay/FrontEnd/src/img/PUBLICIDAD/Motor_Parker.png';
-import Valvula_de_alivio_Seinmex from 'C:/PROYECTO-1/reactpixabay/FrontEnd/src/img/PUBLICIDAD/Valvula_de_alivio_Seinmex.png';
-import AED8 from 'C:/PROYECTO-1/reactpixabay/FrontEnd/src/img/PUBLICIDAD/Abrazadera_enganche_de_8.png';
-import AED10 from 'C:/PROYECTO-1/reactpixabay/FrontEnd/src/img/PUBLICIDAD/Abrazadera_enganche_de_10.png';
+import Juego_Mangueras_Hidraulicas from '../../img/PUBLICIDAD/Juego_Mangueras_Hidraulicas.png';
+import Mando_Seinmex from '../../img/PUBLICIDAD/Mando_Seinmex.png';
+import Motor_Charlyn from '../../img/PUBLICIDAD/Motor_Charlyn.png';
+import Motor_Parker from '../../img/PUBLICIDAD/Motor_Parker.png';
+import Valvula_de_alivio_Seinmex from '../../img/PUBLICIDAD/Valvula_de_alivio_Seinmex.png';
+import AED8 from '../../img/PUBLICIDAD/Abrazadera_enganche_de_8.png';
+import AED10 from '../../img/PUBLICIDAD/Abrazadera_enganche_de_10.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {
