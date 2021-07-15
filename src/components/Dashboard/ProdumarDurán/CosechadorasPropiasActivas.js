@@ -16,7 +16,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
-import CargarDatos from 'C:/PROYECTO-1/reactpixabay/FrontEnd/src/cargarDatos/queries.js'; //IMPORTA LOS DATOS DEL BACK-END
+//import CargarDatos from 'C:/PROYECTO-1/reactpixabay/FrontEnd/src/cargarDatos/queries.js'; //IMPORTA LOS DATOS DEL BACK-END
 //import { v4 as uuid } from 'uuid';
 
 
